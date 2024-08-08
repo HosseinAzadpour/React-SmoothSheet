@@ -1,11 +1,11 @@
 {
-  "name": "React-SmoothSheet",
+  "name": "react-smooth-sheet",
   "version": "0.1.0",
   "description": "A customizable bottom sheet component for React applications.",
-  "homepage": "https://github.com/HosseinAzadpour/React-SmoothSheet",
+  "homepage": "https://github.com/HosseinAzadpour/react-smooth-sheet",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HosseinAzadpour/React-SmoothSheet"
+    "url": "https://github.com/HosseinAzadpour/react-smooth-sheet"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -21,7 +21,7 @@ A responsive and customizable bottom sheet component for React applications.
 You can install the package using npm or yarn:
 
 ```bash
-npm install my-bottom-sheet
+npm install react-smooth-sheet
 ```
 
 ## Introduction
@@ -36,7 +36,7 @@ Smooth Animations: Enjoy smooth transitions and animations.
 
 ## Interactive Demo
 
-![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerPhoneSize.png)
+![TimePicker Demo](https://github.com/HosseinAzadpour/React-SmoothSheet/blob/main/BottomSheetGif.gif)
 
 ## Features
 
@@ -48,7 +48,7 @@ Smooth Animations: Enjoy smooth transitions and animations.
 
 ```jsx
 import React, { useState } from "react";
-import BottomSheet from "my-bottom-sheet";
+import BottomSheet from "react-smooth-sheet";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,6 +87,8 @@ export default App;
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Links
+
+https://github.com/HosseinAzadpour/react-smooth-sheet
 
 ## Keywords
 
