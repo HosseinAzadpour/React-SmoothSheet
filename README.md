@@ -59,8 +59,8 @@ function App() {
       <BottomSheet
         isOpen={isOpen}
         sendDataToParent={(open) => setIsOpen(open)}
-        overlayOpacity={0.5}
-        overlayBlur={5}
+        overlayOpacity={1}
+        overlayBlur={2}
         backgroundColor={"#fff"}
       >
         <div>Your content here</div>
