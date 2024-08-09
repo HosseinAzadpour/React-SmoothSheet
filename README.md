@@ -12,13 +12,13 @@ A responsive and customizable bottom sheet component for React applications.
   - [Features](#features)
   - [Example](#example)
   - [props](#props)
-  - [License](#license)
-  - [Links](#links)
   - [API](#api)
   - [Tips and Tricks](#tips-and-tricks)
   - [FAQ](#faq)
   - [Contributing](#contributing)
   - [Contact Information](#contact-information)
+  - [License](#license)
+  - [Links](#links)
   - [Keywords](#keywords)
 
 ## Installation
@@ -39,7 +39,8 @@ yarn add react-smooth-sheet
 
 BottomSheet is a versatile and user-friendly React component designed to provide a smooth bottom sheet experience. With customizable options, BottomSheet ensures a seamless integration into your project.
 <br/>
-Key Features:
+
+**Key Features:**
 <br/>
 Responsive Design: Adapts to various screen sizes and devices.
 <br/>
@@ -96,23 +97,15 @@ export default App;
 | `overlayBlur`      | `number`   | 2           | Sets the blur effect for the overlay.               |
 | `backgroundColor`  | `string`   | "lightGray" | Sets the background color of the bottom sheet.      |
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Links
-
-https://github.com/HosseinAzadpour/react-smooth-sheet
-
 ## API
 
-Functions
+**Functions**
 <br/>
 
 - BottomSheetShow()`: Shows the BottomSheet`.
 - BottomSheetHide()`: Hides the BottomSheet`.
 
-Events
+**Events**
 <br/>
 
 - onTouchStart`: Detects the touch start event`.
@@ -148,6 +141,14 @@ Email: [hossein.azp94@gmail.com]
 <br/>
 
 LinkedIn: `https://www.linkedin.com/in/hosseinazadpour`
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Links
+
+https://github.com/HosseinAzadpour/react-smooth-sheet
 
 ## Keywords
 
