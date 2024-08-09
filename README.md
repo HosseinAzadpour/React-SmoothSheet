@@ -40,9 +40,10 @@ Smooth Animations: Enjoy smooth transitions and animations.
 
 ## Features
 
-- **Bottom Sheet**: Enhance user experience with a responsive and draggable bottom sheet.
-- **Overlay**: Customize the overlay with smooth animations and touch interactions.
-- **Customizable Design**: Adapt the component to fit your application's theme with various color and design options.
+- Toggle visibility with a parent state.
+- Customize overlay opacity and blur.
+- Change the background color of the sheet.
+- Accept custom content as children.
 
 ## Example
 
