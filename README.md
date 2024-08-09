@@ -19,7 +19,6 @@ A responsive and customizable bottom sheet component for React applications.
   - [Contact Information](#contact-information)
   - [License](#license)
   - [Links](#links)
-  - [Keywords](#keywords)
 
 ## Installation
 
@@ -41,7 +40,6 @@ BottomSheet is a versatile and user-friendly React component designed to provide
 <br/>
 
 **Key Features:**
-<br/>
 Responsive Design: Adapts to various screen sizes and devices.
 <br/>
 Customizable Colors: Easily change the color scheme to match your app.
@@ -140,7 +138,7 @@ For any questions or feedback, please contact me via:
 Email: [hossein.azp94@gmail.com]
 <br/>
 
-LinkedIn: `https://www.linkedin.com/in/hosseinazadpour`
+LinkedIn: [https://www.linkedin.com/in/hosseinazadpour]
 
 ## License
 
@@ -149,7 +147,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Links
 
 https://github.com/HosseinAzadpour/react-smooth-sheet
-
-## Keywords
-
-react, bottom sheet, bottom drawer, slide panel, swipeable sheet, modal sheet, react component, overlay, customizable sheet, responsive design, mobile-friendly, smooth animations, UI component, draggable sheet, react UI, touch interaction, sheet overlay, pop-up panel, user-friendly, modern web
