@@ -105,19 +105,23 @@ https://github.com/HosseinAzadpour/react-smooth-sheet
 ## API
 
 Functions
-</br>
+<br/>
 
 - BottomSheetShow()`: Shows the BottomSheet`.
 - BottomSheetHide()`: Hides the BottomSheet`.
-- Events
+
+  Events
+  <br/>
+
 - onTouchStart`: Detects the touch start event`.
 - onTouchMove`: Detects the touch move event`.
 - onTouchEnd`: Detects the touch end event`.
 
 ## Tips and Tricks
 
-- Ensure the `isOpen` prop is managed by the parent component to control the visibility.
-- Use the `sendDataToParent` function to update the parent state when the BottomSheet is closed.
+Ensure the `isOpen` prop is managed by the parent component to control the visibility.
+<br/>
+Use the `sendDataToParent` function to update the parent state when the BottomSheet is closed.
 
 ## FAQ
 
