@@ -32,7 +32,7 @@ npm install react-smooth-sheet
 or
 
 ```bash
-yarn add your-library-name
+yarn add react-smooth-sheet
 ```
 
 ## Introduction
@@ -104,9 +104,9 @@ https://github.com/HosseinAzadpour/react-smooth-sheet
 
 ## API
 
-onTouchStart`: Detects the touch start event`.
-onTouchMove`: Detects the touch move event`.
-onTouchEnd`: Detects the touch end event`.
+- onTouchStart`: Detects the touch start event`.
+- onTouchMove`: Detects the touch move event`.
+- onTouchEnd`: Detects the touch end event`.
 
 ## Tips and Tricks
 
