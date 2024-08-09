@@ -38,11 +38,13 @@ yarn add react-smooth-sheet
 ## Introduction
 
 BottomSheet is a versatile and user-friendly React component designed to provide a smooth bottom sheet experience. With customizable options, BottomSheet ensures a seamless integration into your project.
-
+<br/>
 Key Features:
-
+<br/>
 Responsive Design: Adapts to various screen sizes and devices.
+<br/>
 Customizable Colors: Easily change the color scheme to match your app.
+<br/>
 Smooth Animations: Enjoy smooth transitions and animations.
 
 ## Interactive Demo
@@ -110,8 +112,8 @@ Functions
 - BottomSheetShow()`: Shows the BottomSheet`.
 - BottomSheetHide()`: Hides the BottomSheet`.
 
-  Events
-  <br/>
+Events
+<br/>
 
 - onTouchStart`: Detects the touch start event`.
 - onTouchMove`: Detects the touch move event`.
@@ -126,9 +128,11 @@ Use the `sendDataToParent` function to update the parent state when the BottomSh
 ## FAQ
 
 Q: How can I customize the BottomSheet?
+<br/>
 A: You can customize it using the props provided like `overlayOpacity`, `overlayBlur`, and `backgroundColor`.
-
+<br/>
 Q: How do I close the BottomSheet?
+<br/>
 A: Use the `sendDataToParent` function to change the state in the parent component.
 
 ## Contributing
@@ -138,7 +142,11 @@ Contributions are welcome! Please create an issue or a pull request.
 ## Contact Information
 
 For any questions or feedback, please contact me via:
+<br/>
+
 Email: [hossein.azp94@gmail.com]
+<br/>
+
 LinkedIn: `https://www.linkedin.com/in/hosseinazadpour`
 
 ## Keywords
