@@ -14,6 +14,11 @@ A responsive and customizable bottom sheet component for React applications.
   - [props](#props)
   - [License](#license)
   - [Links](#links)
+  - [API](#api)
+  - [Tips and Tricks](#tips-and-tricks)
+  - [FAQ](#faq)
+  - [Contributing](#contributing)
+  - [Contact Information](#contact-information)
   - [Keywords](#keywords)
 
 ## Installation
@@ -22,6 +27,12 @@ You can install the package using npm or yarn:
 
 ```bash
 npm install react-smooth-sheet
+```
+
+or
+
+```bash
+yarn add your-library-name
 ```
 
 ## Introduction
@@ -90,6 +101,35 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Links
 
 https://github.com/HosseinAzadpour/react-smooth-sheet
+
+## API
+
+onTouchStart`: Detects the touch start event`.
+onTouchMove`: Detects the touch move event`.
+onTouchEnd`: Detects the touch end event`.
+
+## Tips and Tricks
+
+Ensure the `isOpen` prop is managed by the parent component to control the visibility.
+Use the `sendDataToParent` function to update the parent state when the BottomSheet is closed.
+
+## FAQ
+
+Q: How can I customize the BottomSheet?
+A: You can customize it using the props provided like `overlayOpacity`, `overlayBlur`, and `backgroundColor`.
+
+Q: How do I close the BottomSheet?
+A: Use the `sendDataToParent` function to change the state in the parent component.
+
+## Contributing
+
+Contributions are welcome! Please create an issue or a pull request.
+
+## Contact Information
+
+For any questions or feedback, please contact me via:
+Email: [hossein.azp94@gmail.com]
+LinkedIn: `https://www.linkedin.com/in/hosseinazadpour`
 
 ## Keywords
 
