@@ -48,7 +48,7 @@ Smooth Animations: Enjoy smooth transitions and animations.
 
 ## Interactive Demo
 
-![TimePicker Demo](https://github.com/HosseinAzadpour/assets/blob/main/BottomSheetGif.gif)
+![TimePicker Demo](https://github.com/HosseinAzadpour/react-smooth-sheet/blob/main/Demo.gif)
 
 ## Features
 
