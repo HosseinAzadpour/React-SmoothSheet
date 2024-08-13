@@ -3,21 +3,21 @@ import "./BottomSheet.css";
 
 const BottomSheet = ({
   sendDataToParent,
-  isOpen,
+  isOpen = false,
   children,
-  overlayOpacity,
-  overlayBlur,
-  backgroundColor,
+  overlayOpacity = 1,
+  overlayBlur = 2,
+  backgroundColor = "lightGray",
 }) => {
   var [touchStart, setTouchStart] = useState(0);
   var [touchMove, setTouchMove] = useState(0);
   var [touchEnd, setTouchEnd] = useState(0);
-  var bottomSheetElement = useRef();
-  var containerElement = useRef();
+  var bottomSheetElement = useRef(null);
+  var containerElement = useRef(null);
 
   const vh = Math.round(window.innerHeight / (100 / 100));
   useEffect(() => {
-    var bottomSheetChild = bottomSheetElement.current.childNodes[1];
+    const bottomSheetChild = bottomSheetElement.current.childNodes[1];
     //amount of the add room modal move to hide
     if (touchMove - touchStart > 0.15 * vh) {
       touchStart >= touchEnd ? BottomSheetShow() : BottomSheetHide();
@@ -29,7 +29,7 @@ const BottomSheet = ({
     setTouchMove(0);
   }, [touchEnd]);
   function scrollBottomSheet() {
-    var bottomSheet = bottomSheetElement.current.childNodes[1];
+    const bottomSheet = bottomSheetElement.current.childNodes[1];
     bottomSheet.style.transition = "0.05s";
     if (touchStart < touchMove) {
       // finger moving down
@@ -82,12 +82,8 @@ const BottomSheet = ({
     bottomSheetElement.current.childNodes[1].style.transition = `0.5s`;
     setTimeout(() => {
       bottomSheetElement.current.childNodes[1].style.bottom = `0`;
-      bottomSheetElement.current.style.webkitBackdropFilter = `blur(${
-        overlayBlur != undefined ? overlayBlur : 2
-      }px)`;
-      bottomSheetElement.current.style.backdropFilter = `blur(${
-        overlayBlur != undefined ? overlayBlur : 2
-      }px)`;
+      bottomSheetElement.current.style.webkitBackdropFilter = `blur(${overlayBlur}px)`;
+      bottomSheetElement.current.style.backdropFilter = `blur(${overlayBlur}px)`;
       bottomSheetElement.current.style.opacity = "1";
       bottomSheetElement.current.style.transform = "translateY(0vh)";
     }, 200);
@@ -102,9 +98,7 @@ const BottomSheet = ({
     <div ref={bottomSheetElement} className='bottomSheet'>
       <div
         style={{
-          filter: `brightness(${
-            overlayOpacity != undefined ? overlayOpacity : 1
-          })`,
+          filter: `brightness(${overlayOpacity})`,
         }}
         className='emptiness'
         onClick={() => {
@@ -114,9 +108,7 @@ const BottomSheet = ({
       <div
         className='container'
         style={{
-          backgroundColor: `${
-            backgroundColor != undefined ? backgroundColor : "lightGray"
-          }`,
+          backgroundColor: `${backgroundColor}`,
         }}
         onTouchEnd={(e) => {
           e.target.localName == "section" &&
