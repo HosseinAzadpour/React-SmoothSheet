@@ -92,9 +92,9 @@ export default App;
 
 | Prop               | Type       | Default     | Description                                         |
 | ------------------ | ---------- | ----------- | --------------------------------------------------- |
-| `sendDataToParent` | `function` | Required    | Function to send the state to the parent component. |
+| `sendDataToParent` | `function` | false       | Function to send the state to the parent component. |
 | `isOpen`           | `boolean`  | false       | Determines if the bottom sheet is open or closed.   |
-| `overlayOpacity`   | `number`   | 1           | Sets the opacity of the overlay.                    |
+| `overlayDark`      | `number`   | 0           | Sets the opacity of the overlay.                    |
 | `overlayBlur`      | `number`   | 2           | Sets the blur effect for the overlay.               |
 | `backgroundColor`  | `string`   | "lightGray" | Sets the background color of the bottom sheet.      |
 
