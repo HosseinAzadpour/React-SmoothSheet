@@ -72,17 +72,20 @@ function App() {
       <BottomSheet
         isOpen={isOpen}
         sendDataToParent={(open) => setIsOpen(open)}
-        overlayOpacity={1}
+        overlayDark={1}
         overlayBlur={2}
-        backgroundColor={"#fff"}
+        backgroundColor={"lightGray"}
       >
-        <div>Your content here</div>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <div>Your content </div>
+        </div>
       </BottomSheet>
     </div>
   );
 }
 
 export default App;
+
 ```
 
 ## props
@@ -90,7 +93,7 @@ export default App;
 | Prop               | Type       | Default     | Description                                         |
 | ------------------ | ---------- | ----------- | --------------------------------------------------- |
 | `sendDataToParent` | `function` | Required    | Function to send the state to the parent component. |
-| `isOpen`           | `boolean`  | Required    | Determines if the bottom sheet is open or closed.   |
+| `isOpen`           | `boolean`  | false       | Determines if the bottom sheet is open or closed.   |
 | `overlayOpacity`   | `number`   | 1           | Sets the opacity of the overlay.                    |
 | `overlayBlur`      | `number`   | 2           | Sets the blur effect for the overlay.               |
 | `backgroundColor`  | `string`   | "lightGray" | Sets the background color of the bottom sheet.      |

@@ -1,6 +1,6 @@
 {
   "name": "react-smooth-sheet",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A customizable bottom sheet component for React applications.",
   "homepage": "https://github.com/HosseinAzadpour/react-smooth-sheet",
   "repository": {
@@ -27,6 +27,8 @@
     "modal sheet",
     "react component",
     "overlay",
+    "customizable blur",
+    "customizable opacity",
     "customizable sheet",
     "responsive design",
     "mobile-friendly",
